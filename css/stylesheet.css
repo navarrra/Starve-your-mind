@@ -1,0 +1,110 @@
+.logo{
+ width: 65%;
+ height: 45px;
+ background-image: url(../img/starve-your-mind.png);
+ background-size: cover;
+ background-position: left;
+ background-repeat: no-repeat;
+}
+
+.backshop{
+    position: fixed;
+    width:100%;
+    height:100%;
+    background-color: black;
+    z-index: -5; 
+}
+
+.comingsoonsign{
+    position: absolute;
+    width:50%;
+    height:25%;
+    top:25%;
+    left: 25%;
+    background-image: url(../img/coming-soon.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.comingsoon{
+    position: fixed;
+    width:100%;
+    height:600px;
+    margin-top: 0em;
+    /* background-position: -20em ; */
+    background-position:70%;
+    background-color:red;
+    background-image: url(../img/coming-soon.jpg);
+    background-size:cover;
+}
+
+.overlay{
+    position: absolute;
+    width: 100%;
+    height:100%;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.card{
+  box-shadow: -2px 2px 38px -11px rgba(0,0,0,0.75);
+}
+
+.shopfooter{
+  position:fixed;
+  bottom:0;
+  width: 100%;
+}
+
+.copyright{
+  padding-top:1em;
+}
+
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+@media (min-width: 768px) {
+  .logo{
+    width:35%;
+    height:50px;
+  }
+  .carousel-item{
+    height: 500px;
+    min-width: auto;
+  }
+
+  .comingsoon{
+    background-position: -0em;
+  }
+
+  .comingsoonsign{
+    left: 35%;
+  }
+}
