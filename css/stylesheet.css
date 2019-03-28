@@ -59,13 +59,15 @@
 }
 
 .abouttitle{
-    width:100%;
-    height:60px;
-    margin-bottom:3em;
+    position: absolute;
+    width:50%;
+    height:25%;
+    top:5%;
+    left: 30%;
     background-image: url(../img/about-title.png);
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
-    background-position-y: -2em;
+    
 }
 
 .aboutphoto{
@@ -74,7 +76,7 @@
 }
 
 .aboutcont{
-    margin: 1em .3em;
+    margin: 3em .3em;
     padding: 4%;
 }
 
@@ -127,13 +129,5 @@
     left: 35%;
   }
 
-  .abouttitle{
-    position: relative;
-    background-position-y: ;
-    background-size: cover; 
-    height:80px;
-    width:40%;
-    left:30%;
-    margin:-1em 0 1em 0;
-  }
+  
 }
